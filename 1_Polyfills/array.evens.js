@@ -23,4 +23,4 @@ Array.prototype.evens = function () {
   console.log(output);
 };
 
-array.evens();
+array.output();
