@@ -1,0 +1,36 @@
+.user_card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  padding: 24px;
+  text-align: center;
+  max-width: 280px;
+  transition:
+    transform 0.2s,
+    box-shadow 0.2s;
+}
+
+.user_card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+.user_card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+
+.user_card h2 {
+  margin: 0 0 8px;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.user_card p {
+  margin: 4px 0;
+  color: #666;
+  font-size: 0.9rem;
+}
