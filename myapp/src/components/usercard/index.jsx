@@ -1,10 +1,10 @@
-import "./usercard.css";
+import styles from "./usercard.module.css";
 
 const UserCard = (props) => {
   const { user } = props;
 
   return (
-    <div className="user_card">
+    <div className={styles.user_card}>
       <img src={user.image} alt="user" />
       <h2>{user.name}</h2>
       <p>{user.email}</p>

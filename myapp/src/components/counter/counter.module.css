@@ -1,0 +1,56 @@
+.container {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  max-width: 300px;
+  margin: 1rem auto;
+}
+
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.value {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #1a73e8;
+  margin: 1rem 0;
+}
+
+.actions {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.btn {
+  padding: 0.5rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.btnAdd {
+  composes: btn;
+  background-color: #4caf50;
+  color: white;
+}
+
+.btnAdd:hover {
+  background-color: #388e3c;
+}
+
+.btnMinus {
+  composes: btn;
+  background-color: #f44336;
+  color: white;
+}
+
+.btnMinus:hover {
+  background-color: #d32f2f;
+}
